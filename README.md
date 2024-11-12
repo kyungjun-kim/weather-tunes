@@ -1,8 +1,8 @@
 # 프로젝트 최종 보고서
 ### **날씨와 음악 선호도간의 상관관계 및 추세 파악 대시보드 구성**
 
-7igma 팀
-프로젝트 기간 : 2024/11/01 - 2024/11/12
+- 7igma 팀
+- 프로젝트 기간 : 2024/11/01 - 2024/11/12
 
 ## 1. 프로젝트 개요
 
@@ -44,11 +44,14 @@
     2. 응답 데이터를 NumPy 배열로 변환해 일별로 처리
     3. Pandas DataFrame을 이용해 각 날짜에 대해 국가 정보와 기상 변수 추가(칼럼 추가)
         1. `convert_weather_code_to_wmo(code)` 함수 이용해 wmo 코드 변환
-- 수집 데이터 예시 및 칼럼 문서
+- 수집 데이터 예시 및 링크
+    - 구글스프레드시트 : https://docs.google.com/spreadsheets/d/12RwjYgWCsUrVHekVQGMxix5M379Kj-yQ5bPM-G-6Ei8/edit?gid=0#gid=0
+    - weather_csv_description.pdf
+    - ![image](https://github.com/user-attachments/assets/6f7e5b7a-bf3f-462a-9708-4ba4e5d6be7a)
     
-    [weather_csv_description.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/29dd0948-7b38-443b-af5a-c6bc908226ab/9c507f4e-360a-4cbc-a951-400baf81d01f/weather_csv_description.pdf)
-    
-    [2024-11-03_weather.csv](https://prod-files-secure.s3.us-west-2.amazonaws.com/29dd0948-7b38-443b-af5a-c6bc908226ab/d4d21f49-039e-4e68-bda9-aa9ce30d4588/2024-11-03_weather.csv)
+    - 2024-11-03_weather.csv
+    - ![image](https://github.com/user-attachments/assets/ea6bd21c-41b6-4ab9-aaa1-7852ebe024b0)
+
     
 
 ---
